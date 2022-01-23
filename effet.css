@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Roboto Mono', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style-type: none;
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* ***********************PREMIEREBARRE********************** */
+nav{
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+    
+}
+header li{
+    float: right;
+    font-size: 1.2em;
+}
+header li a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 25px;
+    color: white;
+}
+#logo{
+    font-family: 'Dancing Script', monospace;
+    font-weight: bold;
+    float:left;
+    text-decoration-color: white;
+}
+#ImageDuBackground{
+    padding-top: 60px;
+    background: url(photo/ba2.png) no-repeat fixed 32% 32%;
+    background-size: cover;
+    height: 799px;
+}
+h1{
+    font-family: 'Roboto Mono', sans-serif;
+    text-align: center;
+    color: blanchedalmond;
+    font-size: 6em;
+    margin-top: 105px;
+    text-shadow: 1px 3px 2px white;
+}
+#trait1{
+    height: 1px;
+    width: 25%;
+    margin: -3px auto;
+    background-color: white;
+}
+h3{
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    text-shadow: 1px 3px 2px white;
+}
+#titre1{
+    background-color:  #3d3d3d ;
+    padding: 10px 0px 100px 0;
+}
+#text1{
+    padding: 0px 20%;
+}
+#prestation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+.image h4{
+    font-family: 'Aria', sans-serif;
+    text-align: center;
+    font-size: 1,8em;
+    margin: 15px;
+    font-weight: 300;
+}
+.image img{
+    border-radius: 10px;
+    box-shadow: 3px 4px 5px 4px black;
+}
+.image img:hover{
+    opacity: 0.3;
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+}
+#AvancementDuProjet{
+    height: 1400px;
+    background-color: #3d3d3d;
+    padding: 1px 2%;
+}
+#AvancementDuProjet h2{
+    padding-top: 60px;
+}
+footer{
+    background-color: rgb(48, 43, 43);
+    color: white;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+form{
+    margin: 0 auto;
+    max-width: 900px;
+}
+input, textarea, button{
+    border : none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: 'Advent Pro', sans-serif;
+    border-radius: 8px;
+}
+textarea{
+    height: 120px;
+}
+button {
+    font-size: 1.5em;
+    background-color: white;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+#traitdubas{
+    height: 1px;
+    width:75% ;
+    background-color: white;
+    margin: 60px auto;
+}
+#copyrighticon{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+#copyright{
+    width: 50%;
+    text-align: left;
+    color: white
+}
+#icones{
+    width: 50%;
+    text-align: right;
+}
+#icones a{
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 1.3em;
+    color:white;
+}
+#icones a:hover{
+    transform: scale(1.5);
+    transition: 0.1s;
+}
